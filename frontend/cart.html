@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineEcom - Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>CineEcom</h1>
+        <nav>
+            <div class="nav-links">
+                <a href="index.html"><i class="ri-home-line"></i> Home</a>
+                <a href="movies.html"><i class="ri-movie-line"></i> Movies</a>
+                <a href="cart.html"><i class="ri-shopping-cart-line"></i> Cart</a>
+                <a href="login.html"><i class="ri-user-line"></i> Login</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="cart-container">
+            <h2 class="page-title">Your Shopping Cart</h2>
+            
+            <div id="cart-items" class="cart-items-page">
+                <!-- Cart items will be loaded here -->
+            </div>
+            
+            <div id="empty-cart" class="empty-state" style="display: none;">
+                <i class="ri-shopping-cart-line"></i>
+                <h3>Your cart is empty</h3>
+                <p>Browse our collection and add some movies to your cart</p>
+                <a href="index.html" class="browse-button">
+                    <i class="ri-movie-line"></i> Browse Movies
+                </a>
+            </div>
+            
+            <div id="cart-total" class="cart-total-page"></div>
+            
+            <div class="cart-actions">
+                <a href="index.html" class="continue-shopping">
+                    <i class="ri-arrow-left-line"></i> Continue Shopping
+                </a>
+                <button class="checkout-button" onclick="checkout()">
+                    <i class="ri-shopping-bag-line"></i> Checkout
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

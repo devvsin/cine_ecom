@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineEcom - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>CineEcom</h1>
+        <nav>
+            <div class="nav-links">
+                <a href="index.html"><i class="ri-home-line"></i> Home</a>
+                <a href="movies.html"><i class="ri-movie-line"></i> Movies</a>
+                <a href="cart.html"><i class="ri-shopping-cart-line"></i> Cart</a>
+                <a href="login.html"><i class="ri-user-line"></i> Login</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="login-container">
+            <h2 class="page-title">Login</h2>
+            
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                
+                <button type="submit" class="login-button">
+                    <i class="ri-login-box-line"></i> Login
+                </button>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/login.js"></script>
+    
+</body>
+</html>
