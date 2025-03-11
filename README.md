@@ -141,7 +141,7 @@ We welcome contributions! To contribute:
 💻 **Developer:** Devvrat Singh (**@devvsin**)  
 📧 **Email:** devvratsingh35@gmail.com  
 📌 **GitHub:** [github.com/devvsin](https://github.com/devvsin)  
-📌 **LinkedIn:** [linkedin.com/in/devvsin](https://linkedin.com/in/devvsingh)  
+📌 **LinkedIn:** [linkedin.com/in/devvsingh](https://linkedin.com/in/devvsingh)  
 
 ---
 
